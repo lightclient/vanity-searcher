@@ -1,0 +1,11 @@
+[package]
+name = "addr-searcher"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rand = { version = "0.7" }
+rand_core = { version = "0.5.1" }
+structopt = { version = "0.3", default-features = false }
+wagyu-ethereum = "0.6.3"
+wagyu-model = "0.6.3"
